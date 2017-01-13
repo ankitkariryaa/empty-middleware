@@ -5,8 +5,7 @@
 */
 
 'use strict';	
-
-module.exports = function () {
+module.exports = function empty-middleware() {
   return function(req, res, next) {
     next();
   }
